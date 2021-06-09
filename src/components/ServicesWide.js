@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
-import ServicesInfo from './ServiceInfo';
+import ServiceInfo from './ServiceInfo';
 
 const Container = styled.div`
     width: 80%;
@@ -74,29 +74,29 @@ const ServicesWide = () => {
                 </NavOption>
             </NavMenu>
             {activeTab === 'one' ? (
-                <ServicesInfo
+                <ServiceInfo
                     infoImg="https://www.placecage.com/g/800/900"
                     title="Option One"
                     body="Laboris culpa exercitation mollit consectetur consectetur nisi proident minim dolor cupidatat. Esse duis qui voluptate velit. Reprehenderit id minim amet in anim velit. Dolor et consequat est ut amet consectetur id. Anim eiusmod in ullamco do minim ea. Sint proident id duis est nostrud nisi exercitation incididunt exercitation."
-                ></ServicesInfo>
+                ></ServiceInfo>
             ) : activeTab === 'two' ? (
-                <ServicesInfo
+                <ServiceInfo
                     infoImg="https://www.placecage.com/800/900"
                     title="Option Two"
                     body="Ipsum elit aliqua sit labore consectetur reprehenderit elit reprehenderit ipsum. Consectetur id ipsum incididunt aute enim dolore ea Lorem voluptate dolore dolore. Aliqua duis eu aute consequat dolor in esse ut magna aliqua aliquip nulla non incididunt. Ut mollit anim excepteur reprehenderit aute. Ex eu excepteur esse commodo culpa aliquip. Consequat nostrud deserunt fugiat veniam ex proident. Anim incididunt adipisicing laborum tempor aliqua ea consectetur officia commodo anim."
-                ></ServicesInfo>
+                ></ServiceInfo>
             ) : activeTab === 'thr' ? (
-                <ServicesInfo
+                <ServiceInfo
                     infoImg="https://www.placecage.com/c/800/900"
                     title="Option Three"
                     body="Occaeca eiusmod laborum adipisicing commodo in Lorem do eu ea amet ipsum. Cupidatat ullamco deserunt cillum deserunt ipsum sint. Reprehenderit eu in dolore minim cupidatat voluptate adipisicing duis dolore culpa. Est do cillum mollit ipsum Lorem ut duis exercitation."
-                ></ServicesInfo>
+                ></ServiceInfo>
             ) : activeTab === 'four' ? (
-                <ServicesInfo
+                <ServiceInfo
                     infoImg="https://www.placecage.com/g/800/900"
                     title="Option Four"
                     body="Laboris cupidatat quis consectetur veniam dolor. Consectetur consectetur eiusmod in fugiat est tempor sit consequat commodo elit et deserunt in. Laboris et veniam pariatur nisi cillum fugiat cillum sit ipsum amet anim sit labore."
-                ></ServicesInfo>
+                ></ServiceInfo>
             ) : (
                 ''
             )}

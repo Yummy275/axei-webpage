@@ -3,15 +3,24 @@ import styled from 'styled-components';
 import FadeShiftIn from './FadeShiftIn';
 
 const Container = styled.div`
-    margin-left: 5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 70vw;
+    max-width: 22rem;
+    margin: 1.5rem;
+    @media (min-width: 1024px) {
+        margin: 0 0 0 5rem;
+    }
 `;
 
 const InfoImg = styled.img`
-    width: 24rem;
-    height: 18rem;
+    width: 100%;
+
+    @media (min-width: 1024px) {
+        width: 22rem;
+        height: 21rem;
+    }
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
         rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
         rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
