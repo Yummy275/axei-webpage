@@ -33,7 +33,7 @@ const Title = styled.h2`
 
 const Info = styled.p``;
 
-const NavSectionInfo = ({ infoImg, title, body }) => {
+const ServiceInfo = ({ infoImg, title, body }) => {
     return (
         <Container>
             <InfoImg key={`${title}img`} src={infoImg} alt="icon"></InfoImg>
@@ -45,4 +45,4 @@ const NavSectionInfo = ({ infoImg, title, body }) => {
     );
 };
 
-export default NavSectionInfo;
+export default ServiceInfo;

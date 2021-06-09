@@ -2,7 +2,7 @@ import './App.css';
 import PageHead from './components/PageHead';
 import Intro from './components/Intro';
 import CardHolder from './components/CardHolder';
-import NavSection from './components/NavSection';
+import Services from './components/Services';
 
 function App() {
     return (
@@ -10,7 +10,7 @@ function App() {
             <PageHead></PageHead>
             <Intro></Intro>
             <CardHolder></CardHolder>
-            <NavSection></NavSection>
+            <Services></Services>
         </div>
     );
 }
