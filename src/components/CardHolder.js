@@ -7,7 +7,7 @@ const Container = styled.div`
     flex-wrap: wrap;
     justify-content: space-evenly;
     max-width: 80rem;
-    margin: 0 auto;
+    margin: 15rem auto 0 auto;
 `;
 
 const CardHolder = () => {

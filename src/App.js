@@ -2,6 +2,7 @@ import './App.css';
 import PageHead from './components/PageHead';
 import Bio from './components/Bio';
 import CardHolder from './components/CardHolder';
+import Products from './components/Products';
 
 function App() {
     return (
@@ -9,6 +10,7 @@ function App() {
             <PageHead></PageHead>
             <Bio></Bio>
             <CardHolder></CardHolder>
+            <Products></Products>
         </div>
     );
 }

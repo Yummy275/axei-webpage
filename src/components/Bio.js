@@ -3,11 +3,11 @@ import styled from 'styled-components';
 import bioimg from '../images/rooftops.jpg';
 
 const Container = styled.div`
-    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
+    margin-top: 15rem;
 `;
 
 const Flexer = styled.div`
@@ -66,7 +66,7 @@ const Bio = () => {
             <Flexer>
                 <BioImg src={bioimg} alt="software-dev-pic"></BioImg>
                 <Words>
-                    <SectionTitle>Qui incididunt</SectionTitle>
+                    <SectionTitle>Bio Component</SectionTitle>
                     <InformationText>
                         Quis in commodo ipsum deserunt velit non ea id
                         exercitation dolor do. Exercitation veniam nulla nulla
