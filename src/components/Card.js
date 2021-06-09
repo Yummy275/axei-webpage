@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const CardContainer = styled.div`
     width: 80%;
-    max-width: 18rem;
+    max-width: 16rem;
     margin: 1.5rem;
 `;
 

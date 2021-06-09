@@ -6,7 +6,7 @@ const Container = styled.div`
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    max-width: 80rem;
+    max-width: 70rem;
     margin: 15rem auto 0 auto;
 `;
 
