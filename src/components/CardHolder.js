@@ -14,27 +14,27 @@ const CardHolder = () => {
     return (
         <Container>
             <Card
-                cardImg="https://www.placecage.com/g/800/900"
-                cardTitle="Fumeseca Ipsum"
+                cardImg="https://placeimg.com/800/900/any"
+                cardTitle="Quality"
                 cardBody="Consequat amet sit magna magna ad laboris dolore."
             ></Card>
             <Card
-                cardImg="https://www.placecage.com/800/900"
-                cardTitle="Lorem Ipsum"
+                cardImg="https://placeimg.com/800/900/any"
+                cardTitle=""
                 cardBody="Pariatur pariatur ipsum ut dolore voluptate officia minim ad magna sint cupidatat consequat magna eiusmod."
             ></Card>
             <Card
-                cardImg="https://www.placecage.com/c/800/900"
+                cardImg="https://placeimg.com/800/900/any"
                 cardTitle="Appricate Ipsum"
                 cardBody="Ullamco et voluptate cupidatat irure irure veniam incididunt in veniam occaecat."
             ></Card>
             <Card
-                cardImg="https://www.placecage.com/g/800/900"
+                cardImg="https://placeimg.com/800/900/any"
                 cardTitle="Sefulne Ipsum"
                 cardBody="Ex eiusmod do exercitation et."
             ></Card>
             <Card
-                cardImg="https://www.placecage.com/c/800/900"
+                cardImg="https://placeimg.com/800/900/any"
                 cardTitle="Quiamn Ipsum"
                 cardBody="Dolor velit do ex culpa qui magna occaecat nisi dolore."
             ></Card>
