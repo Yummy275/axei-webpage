@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 import ServicesWide from './ServicesWide';
 import ServicesMobile from './ServicesMobile';
@@ -10,7 +10,15 @@ const Container = styled.div`
 `;
 
 const Services = () => {
-    const viewportWidth = window.innerWidth;
+    const [viewportWidth, setViewportWidth] = useState(window.innerWidth);
+    const handleResize = () => {
+        setViewportWidth(window.innerWidth);
+    };
+
+    useEffect(() => {
+        window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize);
+    });
 
     return (
         <Container>

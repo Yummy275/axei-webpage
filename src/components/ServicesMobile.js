@@ -7,6 +7,7 @@ const Container = styled.div``;
 const Title = styled.h2`
     color: white;
     text-align: center;
+    margin-bottom: 3rem;
 `;
 
 const Window = styled.div`
