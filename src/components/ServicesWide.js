@@ -9,10 +9,15 @@ const Container = styled.div`
     justify-content: center;
 `;
 
+const Title = styled.h2`
+    padding: 1rem;
+    margin: 2.5rem 0 0 2rem;
+`;
+
 const NavMenu = styled.div`
     background-color: white;
     width: 28rem;
-    height: 36rem;
+    height: 41rem;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
         rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
         rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -22,7 +27,7 @@ const NavMenu = styled.div`
 `;
 
 const NavOption = styled.div`
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     font-style: italic;
     margin: 2rem 0 0 2rem;
     z-index: 1;
@@ -44,6 +49,7 @@ const ServicesWide = () => {
     return (
         <Container>
             <NavMenu>
+                <Title>Services</Title>
                 <NavOption
                     onClick={() => setActiveTab('one')}
                     activeTab={activeTab}
@@ -83,7 +89,7 @@ const ServicesWide = () => {
                 <ServiceInfo
                     infoImg="https://www.placecage.com/800/900"
                     title="Option Two"
-                    body="Ipsum elit aliqua sit labore consectetur reprehenderit elit reprehenderit ipsum. Consectetur id ipsum incididunt aute enim dolore ea Lorem voluptate dolore dolore. Aliqua duis eu aute consequat dolor in esse ut magna aliqua aliquip nulla non incididunt. Ut mollit anim excepteur reprehenderit aute. Ex eu excepteur esse commodo culpa aliquip. Consequat nostrud deserunt fugiat veniam ex proident. Anim incididunt adipisicing laborum tempor aliqua ea consectetur officia commodo anim."
+                    body="Ipsum elit aliqua sit labore consectetur reprehenderit elit reprehenderit ipsum. Consectetur id ipsum incididunt aute enim dolore ea Lorem voluptate dolore dolore. Aliqua duis eu aute consequat dolor in esse ut magna aliqua aliquip nulla non incididunt. Ut mollit anim excepteur reprehenderit aute. Ex eu excepteur esse commodo culpa aliquip. Consequat nostrud deserunt fugiat veniam ex proident."
                 ></ServiceInfo>
             ) : activeTab === 'thr' ? (
                 <ServiceInfo
