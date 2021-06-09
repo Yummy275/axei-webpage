@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import bioimg from '../images/rooftops.jpg';
+import introimg from '../images/rooftops.jpg';
 
 const Container = styled.div`
     display: flex;
@@ -23,7 +23,7 @@ const Flexer = styled.div`
     height: 100%;
 `;
 
-const BioImg = styled.img`
+const IntroImg = styled.img`
     height: 18rem;
     width: 16rem;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
@@ -60,13 +60,13 @@ const SectionTitle = styled.h2`
 
 const InformationText = styled.p``;
 
-const Bio = () => {
+const Intro = () => {
     return (
         <Container>
             <Flexer>
-                <BioImg src={bioimg} alt="software-dev-pic"></BioImg>
+                <IntroImg src={introimg} alt="software-dev-pic"></IntroImg>
                 <Words>
-                    <SectionTitle>Bio Component</SectionTitle>
+                    <SectionTitle>Intro Component</SectionTitle>
                     <InformationText>
                         Quis in commodo ipsum deserunt velit non ea id
                         exercitation dolor do. Exercitation veniam nulla nulla
@@ -81,4 +81,4 @@ const Bio = () => {
     );
 };
 
-export default Bio;
+export default Intro;

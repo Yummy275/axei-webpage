@@ -1,16 +1,16 @@
 import './App.css';
 import PageHead from './components/PageHead';
-import Bio from './components/Bio';
+import Intro from './components/Intro';
 import CardHolder from './components/CardHolder';
-import Products from './components/Products';
+import NavSection from './components/NavSection';
 
 function App() {
     return (
         <div className="App">
             <PageHead></PageHead>
-            <Bio></Bio>
+            <Intro></Intro>
             <CardHolder></CardHolder>
-            <Products></Products>
+            <NavSection></NavSection>
         </div>
     );
 }

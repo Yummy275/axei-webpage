@@ -12,12 +12,18 @@ const Title = styled.h2`
     text-align: center;
 `;
 
-const Products = () => {
+const NavMenu = styled.div`
+    background-color: white;
+    width: 28rem;
+    height: 40rem;
+`;
+
+const NavSection = () => {
     return (
         <Container>
-            <Title>Products Component</Title>
+            <NavMenu></NavMenu>
         </Container>
     );
 };
 
-export default Products;
+export default NavSection;
