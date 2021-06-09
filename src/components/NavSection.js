@@ -36,6 +36,8 @@ const NavOption = styled.div`
     padding: 1rem;
     border-radius: 20px;
     cursor: pointer;
+    transition: all 0.3s ease;
+
     ${(props) =>
         props.activeTab === props.tabValue
             ? `background-color: #dfdfdf; box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;`
@@ -94,7 +96,7 @@ const NavSection = () => {
                     <NavSectionInfo
                         infoImg="https://www.placecage.com/c/800/900"
                         title="Option Three"
-                        body="Occaecat eiusmod laborum adipisicing commodo in Lorem do eu ea amet ipsum. Cupidatat ullamco deserunt cillum deserunt ipsum sint. Reprehenderit eu in dolore minim cupidatat voluptate adipisicing duis dolore culpa. Est do cillum mollit ipsum Lorem ut duis exercitation."
+                        body="Occaeca eiusmod laborum adipisicing commodo in Lorem do eu ea amet ipsum. Cupidatat ullamco deserunt cillum deserunt ipsum sint. Reprehenderit eu in dolore minim cupidatat voluptate adipisicing duis dolore culpa. Est do cillum mollit ipsum Lorem ut duis exercitation."
                     ></NavSectionInfo>
                 ) : activeTab === 'four' ? (
                     <NavSectionInfo
