@@ -17,7 +17,8 @@ const BackgroundImgDiv = styled.div`
 
 const Title = styled.h1``;
 
-const SubTitle = styled.h3``;
+const SubTitle = styled.h4``;
+
 const PageHead = () => {
     return (
         <Container>
