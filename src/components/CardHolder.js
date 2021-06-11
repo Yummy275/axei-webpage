@@ -20,7 +20,7 @@ const CardHolder = () => {
             ></Card>
             <Card
                 cardImg="https://placeimg.com/800/900/any"
-                cardTitle=""
+                cardTitle="Speed"
                 cardBody="Pariatur pariatur ipsum ut dolore voluptate officia minim ad magna sint cupidatat consequat magna eiusmod."
             ></Card>
             <Card
