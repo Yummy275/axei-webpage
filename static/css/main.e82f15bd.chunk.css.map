@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/index.css","webpack://src/App.css"],"names":[],"mappings":"AAAA,EACI,QACJ,CCFA,KACI,kCACJ,CAEA,EACI,eACJ","file":"main.e82f15bd.chunk.css","sourcesContent":["* {\n    margin: 0;\n}\n",".App {\n    font-family: 'Fira Sans', sans-serif;\n}\n\np {\n    line-height: 1.5;\n}\n"]}
